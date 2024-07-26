@@ -19,14 +19,14 @@ export default function Home() {
        
        <div>
        <h1 className='text-6xl text-white uppercase  font-bold'>Tasty pastries</h1>
-         <p className='text-white py-8 tracking-wide w-[65%]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+         <p className='text-white py-6 tracking-wide w-[65%]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
              Lorem Ipsum has been the industry's standard dummy text ever since the
              </p>
              <button className='text-white border-none  bg-designColor w-[150px] h-10 rounded-3xl'>see more</button>
        </div>
         <div className='flex flex-row-reverse mdl:gap-5'>
         <span className='text-white mt-0 mdl:mt-20'>Telephone:+7 700 000 00 00</span>
-             <div className='flex mdl:flex-col text-backgroundcolor2 gap-5'>
+             <div className='flex mdl:flex-col text-backgroundcolor2 gap-4'>
                  <FaFacebook/>
                  <FaTwitter />
                  <FaLinkedin />
@@ -47,7 +47,7 @@ export default function Home() {
      </div>
     </div>
    
-    <div className='flex flex-col mdl:flex-row-reverse gap-5 pt-5  w-full h-screen mdl:relative z-10'>
+    <div className='flex flex-col mdl:flex-row-reverse gap-5 pt-0  w-full h-screen mdl:relative z-10'>
         <div className='bg-backgroundcolor w-full mdl:w-[60%] max-h-[600px]'>
             <div className='w-[400px] flex flex-col items-end py-8'>    
             <h1 className='text-6xl text-white  uppercase  font-bold'>how we </h1>
