@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div id='About' className='w-full mdl:relative pt-80 '>
+    <div id='About' className='w-full mdl:relative '>
         <div className='w-full  mdl:w-[60%] bg-backgroundcolor h-auto p-20'>
         <h1 className='text-6xl text-white w-24 uppercase font-bold '>About us</h1>
         <p className='py-5 text-white tracking-wide w-96'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
