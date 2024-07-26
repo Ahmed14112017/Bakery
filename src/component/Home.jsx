@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className='flex flex-col justify-center items-center mdl:overflow-hidden '>
+    <div id='Home' className='flex flex-col justify-center items-center mdl:overflow-hidden '>
  <div>
  <div className='w-full h-screen flex flex-col  gap-5 mdl:flex-row justify-center items-center relative'>
        
@@ -24,9 +24,9 @@ export default function Home() {
              </p>
              <button className='text-white border-none  bg-designColor w-[150px] h-10 rounded-3xl'>see more</button>
        </div>
-        <div className='flex flex-row-reverse gap-5'>
+        <div className='flex flex-row-reverse mdl:gap-5'>
         <span className='text-white mt-0 mdl:mt-20'>Telephone:+7 700 000 00 00</span>
-             <div className='flex  mdl:flex-col text-backgroundcolor2 gap-5'>
+             <div className='flex mdl:flex-col text-backgroundcolor2 gap-5'>
                  <FaFacebook/>
                  <FaTwitter />
                  <FaLinkedin />
@@ -47,17 +47,17 @@ export default function Home() {
      </div>
     </div>
    
-    <div className='flex flex-col mdl:flex-row-reverse gap-5  w-full h-screen relative z-10'>
+    <div className='flex flex-col mdl:flex-row-reverse gap-5 pt-5  w-full h-screen mdl:relative z-10'>
         <div className='bg-backgroundcolor w-full mdl:w-[60%] max-h-[600px]'>
             <div className='w-[400px] flex flex-col items-end py-8'>    
             <h1 className='text-6xl text-white  uppercase  font-bold'>how we </h1>
             <h1 className='text-6xl text-white uppercase  font-bold'>work</h1>
             </div>
-            <div className='flex flex-col mdl:flex-row mdl:justify-center w-full py-10 items-center gap-5 absolute left-0 px-5'>
-                <img src='\src\assets\1.png' className='w-[250px] object-contain' />
-                <img src='\src\assets\2.png' className='w-[250px] object-contain'/>
-                <img src='\src\assets\3.png' className='w-[250px] object-contain'/>
-                <img src='\src\assets\4.png' className='w-[250px] object-contain'/>
+            <div className='flex flex-col mdl:flex-row mdl:justify-center w-full py-10 items-center gap-5 mdl:absolute left-0 px-5'>
+                <img src='\src\assets\1.png' className=' w-[150px] mdl:w-[250px]  object-contain' />
+                <img src='\src\assets\2.png' className='w-[150px] mdl:w-[250px] object-contain'/>
+                <img src='\src\assets\3.png' className='w-[150px] mdl:w-[250px] object-contain'/>
+                <img src='\src\assets\4.png' className='w-[150px] mdl:w-[250px] object-contain'/>
             </div>
         </div>
         <div className='hidden mdl:block w-[40%] max-h-[600px]'>

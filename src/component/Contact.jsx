@@ -30,7 +30,7 @@ export default function Contact() {
      
     }
   return (
-    <div className='w-full py-20'>
+    <div id='Contact' className='w-full py-20'>
       <div className='flex flex-col gap-5 justify-between items-center'>
         <h1 className='text-backgroundcolor text-6xl uppercase font-bold'>Contact us</h1>
         <div className='flex flex-col mdl:flex-row py-10 justify-center gap-16 items-center w-[60%]'>

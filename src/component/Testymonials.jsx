@@ -3,7 +3,7 @@ import { FaRegStar } from "react-icons/fa";
 
 export default function Testymonials() {
   return (
-    <div className='back-img bg-backgroundcolor w-full flex flex-col justify-center items-center'>
+    <div id='Testymonials' className='back-img bg-backgroundcolor w-full flex flex-col justify-center items-center'>
       <div>
         <h1 className='text-white font-bold text-6xl uppercase py-5'>testymonials</h1>
 
