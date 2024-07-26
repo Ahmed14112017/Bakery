@@ -1,0 +1,8 @@
+.nav-list:hover{
+color: #000;
+transition: all ease 1s ;
+}
+
+.back-img{
+  background-image: url(../src//assets//MaskGroup-1.png);
+}
